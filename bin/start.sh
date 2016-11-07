@@ -1,2 +1,3 @@
 #!/usr/bin/bash
-python run.py
+export FLASK_APP=run.py
+python -m flask run --host=0.0.0.0
