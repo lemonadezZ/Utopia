@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 echo "下载wget";
-sudo yum install -y wget python-pip
+yum install -y wget 
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
 pip install flask
-python run.py
