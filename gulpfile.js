@@ -6,15 +6,27 @@ var imagemin = require('gulp-imagemin');
 var sourcemaps = require('gulp-sourcemaps');
 var del = require('del');
 
-
-
+// 默认处理
+//
 
 gulp.task('default',function(){
+        gulp.run('img', 'css', 'lint', 'js', 'html');                        
 
+ 
+        });
 
-var watcher=gulp.watch('assets/*',['uglify'])
+gulp.task('js',function(){
 
-watcher.on('change',function(event){
-	console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-})
-});
+        });
+gulp.task('css',function(){
+
+        });
+gulp.task('html',function(){
+
+        });
+gulp.task('img',function(){
+
+        });
+gulp.task('lint',function(){
+
+        });

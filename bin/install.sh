@@ -12,4 +12,6 @@ echo "修改nginx文件\n"
 
 wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
-pip install flask
+pip install -r requirements.txt
+#
+#pip install flask
