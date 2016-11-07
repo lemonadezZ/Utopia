@@ -1,0 +1,22 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "``` docker pull lemondezz/utopia docker run -d -p 80:5000 lemondezz/utopia ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonadezZ/Utopia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonadezZ/Utopia/issues"
+  },
+  "homepage": "https://github.com/lemonadezZ/Utopia#readme",
+  "devDependencies": {
+    "bulma": "^0.2.3"
+  }
+}
