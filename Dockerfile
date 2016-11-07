@@ -5,4 +5,5 @@ WORKDIR ${workspace}
 RUN  yum  -y install git
 RUN git clone https://github.com/lemonadezZ/Utopia.git .
 RUN  $workspace/bin/install.sh
-EXPOSE 5000
+EXPOSE 80 443 5000
+ENTRYPOINT ["/var/www/project/Utopia/bin/start.sh" ]
